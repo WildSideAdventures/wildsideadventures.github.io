@@ -1,0 +1,56 @@
+/* Color palette
+#1E3372 Dark blue
+#9BA5A6 Light blue gray
+#A8ADAD Light gray
+#FFFFFF White
+#BBD8FF Baby blue
+Zen and Tea colors: https://color.adobe.com/zen-and-tea-color-theme-6622500/?showPublished=true;
+#BDD684 light moss
+#CBE28D lighter moss
+#95AB63 darker moss
+#10222B Very dark blue/green
+*/
+
+html {
+  background-image: url('../img/iceLakeWeb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #9BA5A6;
+}
+
+body {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+#logo {
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 8px #1E3372;
+  padding: 0.6em 0 1em;
+}
+
+#stateMap {
+  margin: 0 1em;
+}
+
+#stateMap > img {
+  max-width: 100%;
+}
+
+.linkAsButton {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: #10222B;
+  background-color: #BDD684;
+  border-radius: 8px;
+  border: medium solid #95AB63;
+  padding: 0.4em 2em;
+  text-decoration: none;
+}
+
+.linkAsButton:hover {
+  color: #1E3372;
+  background-color: #CBE28D;
+}
