@@ -1,0 +1,31 @@
+.contentPage {
+  display: table-row;
+}
+nav {
+  display: table-cell;
+  padding-right: 2em;
+  vertical-align: top;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  margin-bottom: 0.5em;
+}
+
+main {
+  display: table-cell;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1em 2em;
+  border-radius: 10px;
+}
+
+dt {
+  font-weight: bold;
+  font-weight: 1.5em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}

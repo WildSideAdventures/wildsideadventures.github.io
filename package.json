@@ -4,7 +4,7 @@
   "description": "Class project site",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start -s",
+    "start": "browser-sync start -s --files '.'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
