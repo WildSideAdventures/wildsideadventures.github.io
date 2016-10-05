@@ -19,6 +19,7 @@ html {
 
   font-family: 'Raleway', Verdana, sans-serif;
   font-size: 16px;
+  line-height: 1.4;
   min-width: 720px;
 }
 
@@ -103,4 +104,28 @@ footer {
   font-size: larger;
   font-weight: bold;
   margin-top: 2em;
+}
+fieldset {
+  display: inline-block;
+  vertical-align: top;
+  border-width: 2px;
+  border-radius: 10px;
+}
+ul.plain {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.pushRight {
+  float: right;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+}
+.respImg img {
+  max-width: 100%;
+}
+img.framed {
+  border: thick solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
 }
