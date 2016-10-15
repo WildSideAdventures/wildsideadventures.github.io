@@ -100,22 +100,7 @@ footer {
   border: thin solid dimgray;
 }
 
-.question {
-  font-size: larger;
-  font-weight: bold;
-  margin-top: 2em;
-}
-fieldset {
-  display: inline-block;
-  vertical-align: top;
-  border-width: 2px;
-  border-radius: 10px;
-}
-ul.plain {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+
 .pushRight {
   float: right;
   margin-left: 2em;
