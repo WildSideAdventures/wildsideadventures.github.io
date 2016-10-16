@@ -22,7 +22,6 @@ main {
   padding: 1em 2em;
   border-radius: 10px;
 }
-
 dt {
   font-weight: bold;
   font-weight: 1.5em;
@@ -55,4 +54,43 @@ fieldset label {
 fieldset input {
   float:left;
   margin-left: -30px;
+}
+.price {
+  font-size: 1.6em;
+  text-align: right;
+}
+.gearTable td:first-child {
+  width: 35%;
+  max-width: 270px;
+  min-width: 150px;
+  padding: 8px;
+}
+.gearTable thead {
+  background-color: #1E3372;
+  color: gainsboro;
+  font-size: 1.4em;
+}
+.gearTable thead th {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  border: thin solid white;
+}
+.gearTable tbody {
+  background-color: white;
+}
+.gearTable .respImg img {
+  max-height: 330px;
+}
+.gearTable ul {
+  padding-left: 1em;
+}
+.gearTable button {
+  border-color: #1E3372;
+  background-color: whitesmoke;
+  color: #1E3372;
+  cursor: pointer;
+}
+.gearTable button:hover {
+  background-color: white;
+  color: black;
 }
