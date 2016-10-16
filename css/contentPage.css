@@ -46,6 +46,7 @@ fieldset {
   vertical-align: top;
   border-width: 2px;
   border-radius: 10px;
+  width: 250px;
 }
 fieldset label {
   display: block;
@@ -55,15 +56,21 @@ fieldset input {
   float:left;
   margin-left: -30px;
 }
+legend {
+  font-weight: bold;
+}
 .price {
   font-size: 1.6em;
-  text-align: right;
+  padding-bottom: 1em;
 }
 .gearTable td:first-child {
-  width: 35%;
+  /* width: 35%; */
   max-width: 270px;
   min-width: 150px;
   padding: 8px;
+}
+.gearTable td:last-child {
+  text-align: center;
 }
 .gearTable thead {
   background-color: #1E3372;
@@ -74,6 +81,15 @@ fieldset input {
   padding-top: 0.6em;
   padding-bottom: 0.6em;
   border: thin solid white;
+}
+.gearTable tfoot td {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+.gearTable tfoot .price {
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  color: #1E3372;
 }
 .gearTable tbody {
   background-color: white;
@@ -88,7 +104,6 @@ fieldset input {
   border-color: #1E3372;
   background-color: whitesmoke;
   color: #1E3372;
-  cursor: pointer;
 }
 .gearTable button:hover {
   background-color: white;

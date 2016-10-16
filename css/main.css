@@ -35,6 +35,14 @@ footer {
   text-align: center;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #1E3372;
+  text-decoration: underline;
+}
 #logo {
   font-size: 3em;
   color: white;
@@ -85,11 +93,12 @@ footer {
   text-decoration: none;
   width: 180px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .linkAsButton.autoWidth, button.autoWidth {
   width: auto;
 }
-.linkAsButton:hover {
+.linkAsButton:hover, button:hover {
   color: #1E3372;
   background-color: #CBE28D;
 }
